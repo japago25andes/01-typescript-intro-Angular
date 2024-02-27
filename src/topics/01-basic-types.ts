@@ -5,3 +5,6 @@ const isAlive: boolean = true;
 hpPoints = 'FULL'; // valid
 
 console.log({name, hpPoints, isAlive});
+
+
+export {};
