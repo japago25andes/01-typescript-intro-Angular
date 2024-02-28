@@ -24,7 +24,7 @@ const audioPlayer: AudioPlayer = {
 
 const song = 'New song';
 
-const { song:anotherSong, songDuration:duration} = audioPlayer;
+//const { song:anotherSong, songDuration:duration} = audioPlayer;
 //const { details: { autor } } = audioPlayer;
 const {autor:autor} = audioPlayer.details;
 
