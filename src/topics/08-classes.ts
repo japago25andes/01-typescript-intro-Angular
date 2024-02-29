@@ -9,19 +9,29 @@ export class Person {
 
 }
 
+//
+//
+//export class Hero extends Person {
+//
+//    constructor(
+//        public alterEgo: string,
+//        public age: string,
+//        public realName: string
+//    ) {
+//        super(realName, 'New York');
+//    }
+//}
+//
+export class Hero {
 
-
-export class Hero extends Person {
 
     constructor(
         public alterEgo: string,
         public age: string,
         public realName: string
     ) {
-        super(realName, 'New York');
     }
 }
-
 
 const ironman = new Hero('Ironman', '45', 'Tony Stark');
 
