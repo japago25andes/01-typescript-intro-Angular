@@ -1,6 +1,5 @@
 import { Product } from './06-function-destructuring';
 import {taxCalculation} from './06-function-destructuring';
-import {TaxCalculationOptions} from './06-function-destructuring';
 
 
 const shoppingCart: Product[] = [
