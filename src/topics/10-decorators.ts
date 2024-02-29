@@ -3,7 +3,7 @@ function classDecorator(){
 } 
     
 
-@classDecorator
+//@classDecorator
 export class SuperClass{
     public myProperty: string = 'Hello';
 
